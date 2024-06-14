@@ -7,10 +7,10 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class Car{
-    private Model model;
-    private Engine engine;
-    private Body body;
-    private Wheels wheels;
+    @NonNull private Model model;
+    @NonNull private Engine engine;
+    @NonNull private Body body;
+    @NonNull private Wheels wheels;
 
 
 }

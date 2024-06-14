@@ -1,9 +1,10 @@
 package org.example;
 
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
+@AllArgsConstructor
 public class Engine {
     private String engine_model;
-    private double capacity;
+    private String capacity;
 }
